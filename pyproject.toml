@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools >= 77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ferris_chan"
+description = "Rust Developers JP Unofficial Discord BOT"
+version = "0.1.0"
+dependencies = ["discord.py==2.6.4"]
+requires-python = ">=3.12"
+readme = "README.md"
+keywords = ["discord", "bot"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3"
+]
+
+[[project.authors]]
+name = "Kai Tomotake"
+email = "kaitomotake@gmail.com"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["ferris_chan"]
