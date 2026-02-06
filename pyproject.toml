@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "ferris_chan"
 description = "Rust Developers JP Unofficial Discord BOT"
 version = "0.1.0"
-dependencies = ["discord.py==2.6.4"]
+dependencies = ["discord.py==2.6.4", "python-dotenv==1.2.1"]
 requires-python = ">=3.12"
 readme = "README.md"
 keywords = ["discord", "bot"]
